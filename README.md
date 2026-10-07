@@ -1,7 +1,8 @@
 ## Actividad 5 PROYECTO LOGIN
 ### Integrantes del equipo
-Hernández Guzmán Concepción Escarleth
-Arcadio Aparicio Ingrid
+## Hernández Guzmán Concepción Escarleth
+---
+## Arcadio Aparicio Ingrid
 
 ### Nombre del proyecto
 Sistema de Login
