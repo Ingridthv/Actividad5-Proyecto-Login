@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3e7e9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+
+/*login */
+.login {
+    width: 350px;
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 8px #b9a0a5;
+}
+
+
+/* titulo */
+.login h1 {
+    text-align: center;
+
+    color: #722f45;
+
+    margin-bottom: 10px;
+}
+
+
+/* texto debajo del titulo */
+.texto-login {
+    text-align: center;
+
+    color: #666;
+
+    margin-bottom: 25px;
+}
+
+
+/* espacio de cada campo */
+.campo {
+    margin-bottom: 15px;
+}
+
+
+/* correo y contraseña */
+.campo label {
+    display: block;
+
+    color: #722f45;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+
+/* cajas donde escribimos */
+.campo input {
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #aaa;
+
+    border-radius: 5px;
+
+    box-sizing: border-box;
+}
+
+
+/* cuando damos clic en una caja */
+.campo input:focus {
+    border-color: #722f45;
+
+    outline: none;
+}
+
+
+/* boton */
+button {
+    width: 100%;
+
+    padding: 10px;
+
+    background-color: #722f45;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+
+/* cuando pasamos el mouse por el boton */
+button:hover {
+    background-color: #572235;
+}
+
+
+/* mensajes cuando hay un error */
+.error {
+    color: #a52a45;
+
+    font-size: 12px;
+
+    margin-top: 5px;
+}
