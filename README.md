@@ -140,10 +140,10 @@ Al enviar el formulario de alumnos con datos válidos, se calcula la edad con `c
 ![Modal mayor de edad](img/modal.png)
 
 ### 6.Contraseña erronea
-![Modal Contraseña incorrecta](img/contraseña_erronea.png)
+![Modal Contraseña incorrecta] (img/contraseña_erronea.png)
 
 ### 7.Registro Correo
-![Modal registro con correo](img/registro_correo.png)
+![Modal registro con correo] (img/registro_correo.png)
 ---
 
 ## Estructura del proyecto
