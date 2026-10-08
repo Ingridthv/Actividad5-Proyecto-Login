@@ -1,0 +1,96 @@
+body {
+    background-color: #f3e7e9;
+    font-family: Arial, sans-serif;
+}
+
+
+/* barra de arriba */
+.barra-superior {
+    background-color: #722f45;
+    height: 56px;
+}
+
+.btn-hamburguesa {
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+
+.logo {
+    height: 32px;
+    margin: 0 8px;
+}
+
+
+/* menu lateral */
+.sidebar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 240px;
+    height: 100vh;
+    background-color: #572235;
+    padding-top: 10px;
+    transition: transform 0.3s;
+    z-index: 1000;
+}
+
+/* cuando se oculta con la hamburguesa */
+.sidebar.oculto {
+    transform: translateX(-100%);
+}
+
+.sidebar .nav-link {
+    color: white;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #722f45;
+}
+
+/* opciones del submenu (Captura, Alumnos) */
+.submenu .nav-link {
+    padding-left: 35px;
+    font-size: 14px;
+}
+
+
+/* parte donde se ve el contenido */
+.contenido {
+    margin-left: 240px;
+    margin-top: 56px;
+    padding: 25px;
+    transition: margin-left 0.3s;
+}
+
+/* cuando el menu esta oculto, el contenido ocupa todo */
+.contenido.completo {
+    margin-left: 0;
+}
+
+.titulo {
+    color: #722f45;
+    margin-bottom: 20px;
+}
+
+
+/* cajas blancas de los formularios */
+.tarjeta {
+    background-color: white;
+    max-width: 450px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px #b9a0a5;
+}
+
+
+/* botones guinda */
+.btn-guinda {
+    background-color: #722f45;
+    color: white;
+}
+
+.btn-guinda:hover {
+    background-color: #572235;
+    color: white;
+}
